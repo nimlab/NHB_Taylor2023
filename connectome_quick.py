@@ -55,7 +55,7 @@ if __name__ == "__main__":
     if(not os.path.exists(output_folder)):
         raise ValueError("Invalid output folder: " + output_folder)
     if(args.bs is None):
-        mask_img = "./MNI152_T1_2mm_brain_mask_dil"
+        mask_img = "./MNI152_T1_2mm_brain_mask_dil.nii.gz"
     else:
         mask_img = image.load_img(args.bs)
     brain_masker = input_data.NiftiMasker(mask_img)
