@@ -1,0 +1,9 @@
+name: nhb_taylor2022
+
+dependencies:
+  - numpy
+  - nilearn
+  - tqdm
+  - natsort
+  - scipy
+  - numba
