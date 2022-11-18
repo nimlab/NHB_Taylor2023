@@ -1,6 +1,6 @@
-# A Convergent Brain Network for Psychiatric Illness
+# A Transdiagnostic Network for Psychiatric Illness Derived from Atrophy and Lesions. 
 
-The code for our paper *A Convergent Brain Network for Psychiatric Illness*. 
+The code for our Nature Human Behavior paper *A Transdiagnostic Network for Psychiatric Illness Derived from Atrophy and Lesions*. 
 
 ## Environment installation
 It is recommended to use [mamba](https://github.com/mamba-org/mamba) to install the conda environment:
