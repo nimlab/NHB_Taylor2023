@@ -3,7 +3,7 @@
 The code for our paper *A Convergent Brain Network for Psychiatric Illness*. 
 
 ## Environment installation
-It is recommended to use (mamba)[https://github.com/mamba-org/mamba] to install the conda environment:
+It is recommended to use [mamba](https://github.com/mamba-org/mamba) to install the conda environment:
 ```
 mamba env create -f environment.yml
 conda activate nhb_taylor2023
