@@ -51,7 +51,7 @@ if __name__ == "__main__":
 
     subject_args = []
     for s in unique_subjects:
-        runs = natsorted(glob.glob(os.path.join(input_dir,s+'*','func',s+'*')))
+        runs = natsorted(glob.glob(os.path.join(input_dir,s+'*','func',s+'*.nii.gz')))
         subject_args.append((runs, s, mask_img, output_dir))
 
     # show the results for the first five subjects
